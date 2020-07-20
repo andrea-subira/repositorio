@@ -1,0 +1,31 @@
+/*Ajustes botón información*/
+
+.button-info{
+    min-height: 35px;
+    max-height: 35px;
+    @include media-breakpoint-up(lg) {
+      min-height: 35px;
+     }
+    @include media-breakpoint-up(xl) {
+      min-height: 50px;
+     }
+}
+
+/*Botón custom CONTACTAR*/
+.btn-outline-primary {
+  color: $primary;
+  border-color: $primary;
+  border-width: 2px;
+  border-radius: 50px;
+  margin: 0;
+  padding: 0;
+  height: 35px;
+  width: 100px;
+  &:hover{
+    background-color: $primary;
+    border-color: $primary;
+  }
+  &:focus{
+    box-shadow: 0 0 0 0.2rem rgba(255, 80, 0, 0.5);
+  }
+}

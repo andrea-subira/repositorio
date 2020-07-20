@@ -1,0 +1,34 @@
+  /*Ajustes Logo*/
+.logo-flex{
+  display: flex;
+  justify-content: center;
+  @include media-breakpoint-up(lg) {
+    justify-content: start;
+   }
+}
+
+.img-logo{
+  max-height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+}
+
+.spacers-header{
+  margin-right: 100px;
+  margin-left: 50px;
+  @include media-breakpoint-up(lg){
+    margin-left: 30px;
+  }
+}
+
+
+/*Ajustes mapa página detalles*/
+.detalles-mapa{
+    max-width: 450px;
+    max-height: 450px;
+    @include media-breakpoint-up(lg) {
+        min-width: 100%;
+        min-height: 100%;
+       }
+}

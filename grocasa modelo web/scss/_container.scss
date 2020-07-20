@@ -1,0 +1,21 @@
+/*Setup contenedor visual*/
+.container{
+    max-width: 100%;
+    @include media-breakpoint-up(lg) {
+        max-width: 85%;
+    }
+}
+
+.container, .detalles{
+
+@include media-breakpoint-up(lg) {
+      max-width: 80%;
+  }
+}
+
+.content{
+  max-width: 100%;
+  @include media-breakpoint-up(lg) {
+    max-width: 60%;
+}
+}

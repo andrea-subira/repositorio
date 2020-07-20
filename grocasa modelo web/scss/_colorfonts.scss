@@ -1,0 +1,86 @@
+
+/*COLORES*/
+$primary: #ff5000;
+$secondary: #797979;
+$tertiary: #414141;
+
+/*MOLÉCULAS COLOR*/
+.naranja{
+    color: $primary;
+}
+
+.gris{
+    color: $secondary;
+}
+
+/*ESTILOS TEXTO*/
+
+h4{
+        color: $primary;
+        font-weight: bolder;
+        //font-size: 2.18em;
+    }
+
+h5{
+    color: $secondary;
+    font-weight: 100;
+    //font-size: 2em;
+}
+
+p{
+    color: $tertiary;
+}
+
+.small {
+    font-weight: bold;
+        
+}
+
+.referencia{
+    font-weight: 100;
+}
+
+  /*Ajustes texto precio*/
+  .text-precio{
+      font-weight: bolder;
+      //font-size: x-large;
+      margin-bottom: 0;
+    @include media-breakpoint-up(xl) {
+        //font-size: xx-large;
+       }
+  }
+
+  p{
+      //font-size: x-large;
+  }
+  
+  /*Ajustes área detalles*/
+  .detalles-piso{
+      p{
+          margin: 0;
+      }
+  }
+
+  .subtexto{
+      font-size: large;
+      font-weight: bold;
+  }
+
+  /*Ajustes texto detalle*/
+  .texto-md{
+      font-size: medium;
+  }
+
+  html{
+      font-size: 1em;
+      @include media-breakpoint-up(md) {
+          font-size: 1em;
+      }
+      @include media-breakpoint-up(lg) {
+          font-size: 1.1em;
+      }
+      @include media-breakpoint-up(xl) {
+          font-size: 1.2em;
+      }
+  }
+  
